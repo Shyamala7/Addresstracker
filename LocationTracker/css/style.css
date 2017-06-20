@@ -1,0 +1,20 @@
+  html, body, .container-table {
+    height: 100%;
+  }
+  .container-table {
+    display: table;
+  }
+  .vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  ::-ms-clear {
+    display: none;
+  }
+
+  .form-control-clear {
+    z-index: 10;
+    pointer-events: auto;
+    cursor: pointer;
+  }

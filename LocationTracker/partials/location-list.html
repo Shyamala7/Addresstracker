@@ -1,0 +1,25 @@
+<div ng-include="'partials/menubar.html'"></div>
+
+<div class="container container-table">
+  <div class="row"><table class="table table-bordered table-striped">
+	<thead>
+		<th class="text-center">Location</th>
+		<th>City</th>
+		<th>State</th>
+		<th>Country</th>
+		<th>Street</th>
+		<th>Zipcode</th>
+	</thead>
+	<tbody>
+		<tr ng-repeat="locationlist in locationlists">
+			<td>{{locationlist.location}}</td>
+			<td>{{locationlist.city}}</td>
+			<td>{{locationlist.state}}</td>
+			<td>{{locationlist.country}}</td>
+			<td>{{locationlist.street}}</td>
+			<td>{{locationlist.zipcode}}</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
